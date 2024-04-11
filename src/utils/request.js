@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 const request = axios.create({
     // baseURL: 'http://10.23.127.99:9090',
-    baseURL: 'http://10.23.127.99:8080/LibraryManagement/api',
+    baseURL: 'https://10.23.127.99:8080/LibraryManagement/api',
     // baseURL: 'http://localhost:8080/api',
     timeout: 5000
 })
